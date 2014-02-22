@@ -41,3 +41,15 @@
 2014-02-22 14:49:49 --- EMERGENCY: ErrorException [ 4 ]: syntax error, unexpected end of file ~ APPPATH/views/client/template.php [ 298 ] in file:line
 2014-02-22 14:49:49 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
 #1 {main} in file:line
+2014-02-22 18:14:07 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: controller ~ SYSPATH/classes/Kohana/Request.php [ 956 ] in /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php:956
+2014-02-22 18:14:07 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(956): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 956, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#2 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php:956
+2014-02-22 18:15:45 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: controller ~ SYSPATH/classes/Kohana/Request.php [ 956 ] in /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php:956
+2014-02-22 18:15:45 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(956): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 956, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#2 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php:956
+2014-02-22 18:16:38 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: controller ~ SYSPATH/classes/Kohana/Request.php [ 956 ] in /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php:956
+2014-02-22 18:16:38 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(956): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 956, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#2 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php:956

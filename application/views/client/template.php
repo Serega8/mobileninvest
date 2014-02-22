@@ -59,12 +59,12 @@
                         <nav class="right">
                             <ul>
                                 <li><a href="/">Главная</a></li>
-                                <li><a href="/about">О комплексе</a></li>
-                                <li><a href="/partners">Партнеры</a></li>
-                                <li><a href="/layout">Планировки</a></li>
+                                <li><a href="/фок-рафиева-белецкого-минск">О комплексе</a></li>
+                                <li><a href="/наши-партнеры">Партнеры</a></li>
+                                <li><a href="/планировки">Планировки</a></li>
                                 <!-- <li><a href="price.html">Цены</a></li> -->
                                 <!-- <li><a href="review.html">Отзывы</a></li> -->
-                                <li><a href="/contact">Контакты</a></li>
+                                <li><a href="/наши-контакты">Контакты</a></li>
                                 <div class="null"></div>
                             </ul>
                         </nav>
@@ -114,10 +114,10 @@
                         <h2>Быстрое меню</h2>
                         <ul>
                             <li><a href="/">&raquo; Главная</a></li>
-                            <li><a href="/about">&raquo; О комплексе</a></li>
-                            <li><a href="/partners">&raquo; Партнерам</a></li>
-                            <li><a href="/layout">&raquo; Планировки</a></li>
-                            <li><a href="/contact">&raquo; Контакты</a></li>
+                            <li><a href="/фок-рафиева-белецкого-минск">&raquo; О комплексе</a></li>
+                            <li><a href="/наши-партнеры">&raquo; Партнерам</a></li>
+                            <li><a href="/планировки">&raquo; Планировки</a></li>
+                            <li><a href="/наши-контакты">&raquo; Контакты</a></li>
                             <div class="null"></div>
                         </ul>
                     </div>

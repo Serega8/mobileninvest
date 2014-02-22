@@ -8,7 +8,7 @@
         <ul>
             <li><a href="/">Главная</a></li>
             <li>/</li>
-            <li><a href="/partners">Партнеры</a></li>
+            <li><a href="/наши-партнеры">Партнеры</a></li>
         </ul>
     </div>
 </div>
