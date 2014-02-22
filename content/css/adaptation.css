@@ -1,0 +1,24 @@
+@media (max-width: 1240px){
+  .second{
+    width: 43%;
+  }  
+  	#prev2{
+  	left: -10px;
+  }
+  #next2{
+  	right: -10px;
+  }
+  .logo a{
+    font-size: 22px;
+    padding-top: 28px;
+  }
+}
+@media (max-width: 1024px){
+	.cont {
+		width: 250px;
+	}
+  
+	.one-news-footer .text{
+  	width: 200px;
+  }
+}

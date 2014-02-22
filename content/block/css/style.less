@@ -1,0 +1,306 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+/*table, tr, tbody, tfoot, thead,  th, td, */
+caption,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+h1, h2{
+	font-size: 28px;
+}
+h3{
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+h4{
+	font-size: 25px;
+	font-weight: normal;
+}
+h5, h6{
+	font-size: 16px;
+}
+textarea {
+  resize: vertical;
+}
+b, strong{
+	font-weight: bold
+}
+i{
+	font-style: italic;
+}
+ul{
+	list-style: none;
+}
+@font-face { 
+	font-family: 'Segoe UI Light'; 
+	src: url('../fonts/segoe_ui_light.eot'); 
+	src: url('../fonts/segoe_ui_light.eot?#iefix') format('embedded-opentype'), url('../fonts/segoe_ui_light.svg#Segoe UI Light') format('svg'), url('../fonts/segoe_ui_light.woff') format('woff'), url('../fonts/segoe_ui_light.ttf') format('truetype'); 
+	font-weight: normal; 
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+	.for-transition;
+	outline: none;
+	color: #3182bf;
+}
+a:hover{
+	text-decoration: none;
+	.for-transition;
+}
+p{
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: #6b6e80;
+}
+/*
+div {border:1px solid #FF0000;}
+*/
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.text_center{
+	text-align: center;
+}
+.null{
+	clear: both;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {height: 100%;}
+* html body {height: 100%;}
+html, body {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+}
+strong{
+	font-weight: bold;
+}
+* html #container {
+  height: 100%;
+}
+body {
+  background-color: #fff;
+  font-size: 16px; 
+  font-family: 'Segoe UI Light';
+}
+#container{
+	width: 100%;
+	min-width: 960px;
+	min-height: 100%;
+	position: relative;
+	background: url(../images/bg.jpg);
+	z-index: 1;
+	margin: 0 auto;
+}
+.center{
+	max-width: 1200px;
+	min-width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+	position: relative;
+}
+.raunded(@radius){
+	border-radius: @radius;
+	-o-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+}
+.for-transition{
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.for-transition-faster{
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.for-transition-none{
+    -webkit-transition: 0;
+    -moz-transition: 0;
+    -ms-transition: 0;
+    -o-transition: 0;
+    transition: 0;
+}
+.for-shadow(@x:0px, @y:0px, @thickness:25px, @color:#a7a7a6){
+	box-shadow: @x @y @thickness @color;
+	-o-box-shadow: @x @y @thickness @color;
+	-moz-box-shadow: @x @y @thickness @color;
+	-webkit-box-shadow: @x @y @thickness @color;
+}
+.for-inline-block{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+::selection {
+	background: #294E79; 
+	color: #fff;
+}
+::-moz-selection {
+	background: #294E79; 
+	color: #fff;
+}
+header{
+	position: relative;
+	background: #242636;
+	color: #ffffff;
+	.row{
+		padding-top: 15px;
+		padding-bottom: 10px;
+	}
+}
+.row{
+	width: 1024px;
+	margin: 0 auto;
+	.copyright{
+		text-align: left;
+		color: #E7E7E7;
+	}
+	.call{
+		text-align: right;
+		p{
+			display: block;
+			float: right;
+			margin-left: 10px;
+			color: #E7E7E7;
+			i{
+				color: #E7E7E7;
+				padding-right: 5px;
+			}
+			a{
+				color: #E7E7E7
+			}
+		}
+	}
+}
+.coming_soon{
+	padding-top: 80px;
+	border-bottom: 5px solid #333;
+	padding-bottom: 5px;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+	h1{
+		padding-bottom: 10px;
+		font-size: 58px;
+		line-height: 80px;
+		font-weight: 100;
+		margin: 0 0 42px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	p{
+		font-size: 18px;
+		padding-bottom: 25px;
+		border-bottom: 1px solid #333;
+		margin-bottom: 0;
+		span{
+			display: block;
+			max-width: 900px;
+			margin: 0 auto;
+		}
+	}
+}
+.logo{
+	max-width: 150px;
+	img{
+		max-width: 100%;
+	}
+}
+nav{
+	padding-top: 50px;
+	ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		text-align: right;
+		li{
+			.for-inline-block;
+			position: relative;
+			margin: 0;
+			padding: 0;
+			a{
+				font-size: 16px;
+				color: #242636;
+				text-decoration: none;
+				margin: 0;
+				padding: 0 10px;
+				border-right-style: solid;
+				border-right-width: 1px;
+				border-color:#242636;
+			}
+		}		
+	}
+}
+.nav{
+	padding-right: 0;
+}
+.all-blocks{
+	padding-top: 20px;
+}
+.social{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	.soc-icon{
+		.for-inline-block;
+		width: 32px;
+		text-align: center;
+		padding: 5px 0;
+		margin-right: 5px;
+		.raunded(4px);
+		i{
+			color: #fff;
+		}
+	}
+	.soc-icon.facebook{
+		background: #3B5998;		
+	}
+	.soc-icon.twitter{
+		background: #4592C9;
+	}
+	.soc-icon.vk{
+		background: #517397;
+	}
+	.soc-icon.google{
+		background: #DD4B39;
+	}
+}
+.copy{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 14px;
+}
