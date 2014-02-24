@@ -115,6 +115,8 @@ Kohana::modules(array(
     'orm' => MODPATH . 'orm', // Object Relationship Mapping
         // 'unittest'   => MODPATH.'unittest',   // Unit testing
         // 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
+         'email'  => MODPATH.'email',  // email
+     //    'swiftmailer'  => MODPATH.'swiftmailer',  // swiftmailer
 ));
 Cookie::$salt = 'dev_<bullet>_';
 /**

@@ -33,6 +33,71 @@ class Model_Messages extends ORM {
         }
         return $of;
     }
+    
+//    public function add_msg($text)
+//    {
+//        if (isset($text['result']['to_email'])) {
+//            $header = "Content-type: text/html; charset=utf-8\r\n";
+//		$config = Kohana::$config->load('email');
+//    		Email::connect($config);
+//            if ($text['result']['to_email'] == 'moscow') {
+//                
+//                $city = 'Moscow';
+//                $msg = "\nИмя отправителя: ".$text['result']['1']."\nТелефон: ".$text['result']['2']."\nТекст сообщения: ".$text['result']['3']."\n";
+//                $msg.='Город: '.$city;
+//
+//		$to = 'moscow@mobileninvest.by';
+//    		$subject = 'Сообщение обратной связи mobileninvest.by';
+//    		$from = 'moscow@mobileninvest.by';
+//    		Email::send($to, $from, $subject, $msg, $html = false);
+//
+//		
+//
+//                //mail("support@intellectit.by",  'Обратная связь сайта lmgr.by', $msg,$header);
+//                
+//            } else if ($text['result']['to_email'] == 'minsk') {
+//                    $city = 'Minsk';
+//                    $msg = "\nИмя отправителя: ".$text['result']['1']."\nТелефон: ".$text['result']['2']."\nТекст сообщения: ".$text['result']['3']."\n";
+//                    $msg.='Город: '.$city;
+//                    $to = 'minsk@mobileninvest.by';
+//    		$subject = 'Сообщение обратной связи mobileninvest.by';
+//    		$from = 'moscow@mobileninvest.by';
+//    		Email::send($to, $from, $subject, $msg, $html = false);
+//                     
+//                } else {
+//                    die('error code 404');
+//                }
+//        }
+//        else {
+//            die('error code 404');   
+//        }
+//        $of = false;
+//        $model_id = ORM::factory('Msgid');
+//        $model_id->ip = $text['ip'];
+//        $model_id->date = $text['date'];
+//        if ($model_id->save()) {
+//            $of = true;
+//        } else {
+//            return false;
+//        }
+//        $id = $model_id->pk();
+//        if ($of) {
+//            $of = false;
+//            foreach ($text['result'] as $k => $ex) {
+//                $model = ORM::factory('Messages');
+//                $model->text = $ex;
+//                $model->msg_id = $id;
+//                $model->tag_id = $k;
+//                if ($model->save()) {
+//                    $of = true;
+//                } else {
+//                    return false;
+//                }
+//            }
+//        }
+//        return $of;
+//    }
+    
 
     public function get_all_messages() {
         $avialable = array();

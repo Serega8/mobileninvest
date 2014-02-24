@@ -15,18 +15,25 @@
 <div class="center">
     <div class="two-half left">
         <h2>Задайте нам вопрос:</h2>
-        <form class="rf other">
+        
+        
+        
+        <form class="rf other" action="" method="post">
             <div>
-                <input type="text" placeholder="Имя" class="rfield">
-                <input type="text" placeholder="E-mail" class="rfield">
+                <input type="text" name="name" placeholder="Имя" class="rfield">
+                <input type="text" name="message" placeholder="E-mail" class="rfield">
                 <div class="null"></div>
             </div>
             <div>
-                <textarea placeholder="Введите сообщение" class="rfield"></textarea>
+                <textarea name="text" placeholder="Введите сообщение" class="rfield"></textarea>
             </div>
             <div class="null"></div>
             <input type="submit" class="submit btn_submit disabled" value="Отправить">
         </form>
+        
+        
+        
+        
     </div>
     <div class="one-half left">
         <h2 style="padding-left: 10px;">Наш адрес:</h2>

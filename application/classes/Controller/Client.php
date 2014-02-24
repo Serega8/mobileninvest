@@ -1,7 +1,7 @@
 <?php
 
 defined('SYSPATH') or die('No direct script access.');
-error_reporting(E_ALL ^ E_NOTICE);
+//error_reporting(E_ALL ^ E_NOTICE);
 
 class Controller_Client extends Controller_Template {
 
@@ -32,16 +32,7 @@ class Controller_Client extends Controller_Template {
             'content/css/style.css',
             'content/css/font-awesome.min.css',
             'content/css/adaptation.css',
-            
             'content/css/style.less',
-            
-            
-            
-//            'content/block/css/adaptation.css',
-//            'content/block/css/bootstrap.min.css',
-//            'content/block/css/font-awesome.min.css',
-//            'content/block/css/style.css',
-//            'content/block/css/style.less',
         );
         $scripts = array(
             'content/client_js/jquery.min.js',
@@ -49,44 +40,10 @@ class Controller_Client extends Controller_Template {
             'content/client_js/custom.js',
             'content/client_js/lightbox-2.6.min.js',
             'content/client_js/jquery.carouFredSel-6.2.1-packed.js',
-            //'content/client_js/feedback.js'
         );
 
         $this->template->styles = $styles;
         $this->template->scripts = $scripts;
-
-
-//        
-//        $action = $this->request->action();
-//        $param = $this->request->param();
-//        $this->template->c = ORM::factory('Contacts')->get_contacts();
-//        $level2 = isset($param['level2']) ? $param['level2'] : $action;
-//        $level3 = isset($param['level3']) ? $param['level3'] : NULL;
-//        $level4 = isset($param['level4']) ? $param['level4'] : NULL;
-//        $level5 = isset($param['level5']) ? $param['level5'] : NULL;
-//        $action_rus = '';
-//        $this->template->action = $action;
-//        $this->template->level3 = $level3;
-//        switch ($action) {
-//            case 'catalog':
-//                $level2_rus = isset($level2) ? ORM::factory('Categories')->check_level2($level2) : null;
-//                $level3_rus = isset($level3) ? ORM::factory('Subcategories')->check_level3($level3) : null;
-//                $action_rus = 'КАТАЛОГ';
-//                break;
-//            case 'articles':
-//                $level2_rus = (isset($level2) && $level2 !== $action) ? ORM::factory('Articles')->check_level2($level2) : null;
-//                $action_rus = 'СТАТЬИ';
-//                break;
-//            case 'contacts':
-//                $action_rus = 'КОНТАКТЫ';
-//                break;
-//            default:
-//                break;
-//        }
-//        $this->template->action_rus = $action_rus;
-//        $this->template->level2_rus = isset($level2_rus) ? $level2_rus : null;
-//        $this->template->level3_rus = isset($level3_rus) ? $level3_rus : null;
-//        $this->template->level2 = $level2;
     }
 
     public function action_index() {
@@ -123,11 +80,28 @@ class Controller_Client extends Controller_Template {
         $this->template->content = $view;
     }
     
+    
+    
     public function action_contact() {
         $view = View::factory('client/contact');
+        if (isset($_SESSION['msg'])) {
+            $msg = $_SESSION['msg'];
+        }
+        
+        if ($this->request->post()) {
+            $data = Controller_Admin::filter1x($_POST);
+            
+    		$subject = 'Сообщение обратной связи mobileninvest.by';
+    		$from = 'intellectwork@gmail.com';
+    		Email::send($to, $from, $subject, 'aergeargeargeargerg', $html = false);
+
+            var_dump($data);die;
+        }
         $this->template->content = $view;
     }
-
+    
+    
+    
     public function action_poll() {
         if ($this->request->post()) {
             if (is_numeric($_POST['poll'])) {
@@ -143,6 +117,9 @@ class Controller_Client extends Controller_Template {
         }
         $this->redirect('/');
     }
+    
+    
+    
 
     public function action_search() {
         if ($this->request->post()) {

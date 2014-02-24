@@ -53,3 +53,33 @@
 2014-02-22 18:16:38 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(956): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 956, Array)
 #1 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
 #2 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php:956
+2014-02-22 19:06:26 --- EMERGENCY: ErrorException [ 1 ]: Class 'Email' not found ~ APPPATH/classes/Controller/Client.php [ 130 ] in file:line
+2014-02-22 19:06:26 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-02-22 19:13:18 --- EMERGENCY: ErrorException [ 1 ]: Class 'Email' not found ~ APPPATH/classes/Controller/Client.php [ 130 ] in file:line
+2014-02-22 19:13:18 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-02-22 19:13:20 --- EMERGENCY: ErrorException [ 1 ]: Class 'Email' not found ~ APPPATH/classes/Controller/Client.php [ 130 ] in file:line
+2014-02-22 19:13:20 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-02-22 19:13:21 --- EMERGENCY: ErrorException [ 1 ]: Class 'Email' not found ~ APPPATH/classes/Controller/Client.php [ 130 ] in file:line
+2014-02-22 19:13:21 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-02-22 19:13:21 --- EMERGENCY: ErrorException [ 1 ]: Class 'Email' not found ~ APPPATH/classes/Controller/Client.php [ 130 ] in file:line
+2014-02-22 19:13:21 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-02-22 19:13:22 --- EMERGENCY: ErrorException [ 1 ]: Class 'Email' not found ~ APPPATH/classes/Controller/Client.php [ 130 ] in file:line
+2014-02-22 19:13:22 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-02-22 19:13:29 --- EMERGENCY: ErrorException [ 1 ]: Class 'Email' not found ~ APPPATH/classes/Controller/Client.php [ 130 ] in file:line
+2014-02-22 19:13:29 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-02-22 19:13:34 --- EMERGENCY: ErrorException [ 1 ]: Class 'Email' not found ~ APPPATH/classes/Controller/Client.php [ 130 ] in file:line
+2014-02-22 19:13:34 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-02-22 19:13:35 --- EMERGENCY: ErrorException [ 1 ]: Class 'Email' not found ~ APPPATH/classes/Controller/Client.php [ 130 ] in file:line
+2014-02-22 19:13:35 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-02-22 19:13:40 --- EMERGENCY: ErrorException [ 1 ]: Class 'Email' not found ~ APPPATH/classes/Controller/Client.php [ 130 ] in file:line
+2014-02-22 19:13:40 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
