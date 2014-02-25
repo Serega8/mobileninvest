@@ -3,7 +3,7 @@
         <tbody>
             <tr>
                 <td>Название</td>
-                <td><input placeholder="Введите название производителя" type="text" id="category_name" value=""/></td>
+                <td><input placeholder="Введите название партнера" type="text" id="category_name" value=""/></td>
             </tr>
 
             <tr>

@@ -9,7 +9,9 @@ class Model_Brands extends ORM {
     public function list_brands() {
         $res = array();
         $model = ORM::factory('Brands');
-        $brands = $model->where('status', '!=', '3')->find_all();
+        $brands = $model->where('status', '!=', '3')
+                ->order_by('id', 'DESC')
+                ->find_all();
         foreach ($brands as $brand) {
             $pr['id'] = $brand->id;
             $pr['name'] = $brand->name;
@@ -60,7 +62,7 @@ class Model_Brands extends ORM {
                 ->and_where('id', '!=', $data['id'])
                 ->count_all();
         if ($count >= 1) {
-            echo "Производитель с таким названием уже существует";
+            echo "Партнер с таким названием уже существует";
             die;
         }
         $model = ORM::factory('Brands');

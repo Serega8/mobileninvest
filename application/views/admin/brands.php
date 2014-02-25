@@ -1,6 +1,6 @@
 <div id="brands">
     <div>
-        <a href="/admin/brands/new_brand" class="add">Добавить нового производителя</a>
+        <a href="/admin/brands/new_brand" class="add">Добавить нового партнера</a>
     </div>
     <div class='with-selected'>
         <p>С отмеченными</p>

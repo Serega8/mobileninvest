@@ -12,17 +12,27 @@
         </ul>
     </div>
 </div>
+
+
 <div class="center">
     <div class="feedback review">
         <h4>Наши партнеры:</h4>
+        
+        
+        <? foreach ($partners as $partner):?>
         <div class="one-feedback">
             <div class="partner left">
-                <h3>СООО "СТС-Климат"</h3>
+                <h3><?=$partner['name']?></h3>
                 <a href="http://ctc-klimat.by/" class="target_blank">ctc-klimat.by</a>
             </div>
             <div class="null"></div>
         </div>
-        <div class="one-feedback">
+        <? endforeach;?>
+        
+        </div>
+    <div class="null"></div>
+</div>	
+<!--        <div class="one-feedback">
             <div class="partner left">
                 <h3>СООО "Итерастрой"    </h3>
                 <a href="http://www.iteragroup.com/isp/go//1/1/" class="target_blank">www.iteragroup.com/</a>
@@ -76,9 +86,7 @@
                 <a href="http://kroxa.by/" class="target_blank">kroxa.by</a>
             </div>
             <div class="null"></div>
-        </div>						
-    </div>
-    <div class="null"></div>
-</div>				
+        </div>						-->
+    			
 
 

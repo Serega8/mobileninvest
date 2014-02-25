@@ -93,7 +93,7 @@
                                 <li><a href="/admin/catalog">Каталог</a></li>
                                 <li><a href="/admin/reviews">Отзывы (<?= $rev_count; ?>)</a></li>
                                 <li><a href="/admin/poll">Голосование</a></li>
-                                <li><a href="/admin/brands">Производители</a></li>
+                                <li><a href="/admin/brands">Партнеры</a></li>
                                 <li><a href="/admin/slideshow">Слайдшоу</a></li>
                                 <li><a href="/admin/stats/">Статистика</a></li>
                                 <li><a href="/admin/messages">Сообщения (<?= $msg_count; ?>)</a></li>

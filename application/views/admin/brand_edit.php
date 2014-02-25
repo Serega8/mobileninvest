@@ -7,7 +7,7 @@
             </tr>
             <tr>
                 <td>Название</td>
-                <td><input type="text" id="category_name" placeholder="Введите название производителя" value="<?= $brand['name']; ?>"/></td>
+                <td><input type="text" id="category_name" placeholder="Введите название партнера" value="<?= $brand['name']; ?>"/></td>
             </tr>
             <tr>
                 <td>Картинка</td>

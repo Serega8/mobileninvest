@@ -21,6 +21,8 @@ class Controller_Client extends Controller_Template {
 
         $categories = ORM::factory('Products')->get_tree(true);
         $contacts = ORM::factory('Contacts')->get_contacts();
+        $articles = ORM::factory('Articles')->all_articles();
+        $this->template->articles = $articles;
         $this->template->contacts = $contacts;
         $this->template->menu = $categories['main'];
         $this->template->sub_menu = $categories['sub'];
@@ -50,10 +52,13 @@ class Controller_Client extends Controller_Template {
     public function action_index() {
         $view = View::factory('client/index');
         $view->slides = ORM::factory('Slideshow')->all_slides();
-        $view->contacts = ORM::factory('Contacts')->get_contacts();
+        $contacts = ORM::factory('Contacts')->get_contacts();
+        $view->contacts = $contacts;  
+        $articles = ORM::factory('Articles')->all_articles();
+        $art = explode('delimiter', $articles[1]['description']);
         $poll = ORM::factory('Votes')->get_last_poll();
-
-
+        $view->articles = $articles;
+        $view->art = $art;
         $all_items = ORM::factory('Voteitem')->items_by_id($poll['id']);
 
         $votes = ORM::factory('Votesusers')->all();
@@ -68,11 +73,19 @@ class Controller_Client extends Controller_Template {
     
     public function action_about() {
         $view = View::factory('client/about');
+        $articles = ORM::factory('Articles')->all_articles();
+        ///print_r($articles[3]['description']); die;
+        $art = explode('delimiter', $articles[3]['description']);
+        $view->articles = $articles;
+        $view->art = $art;
         $this->template->content = $view;
     }
     
     public function action_partners() {
         $view = View::factory('client/partners');
+        $partners = ORM::factory('Brands')->list_brands();
+        //print_r($partners); die;
+        $view->partners = $partners;
         $this->template->content = $view;
     }
     

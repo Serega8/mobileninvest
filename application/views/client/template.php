@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Физкультурно-оздоровительный комплекс</title>
+        <title><?=$articles[0]['name']?></title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
         <meta name="description" content="">
@@ -51,8 +52,8 @@
                 <div class="top-line">
                     <div class="center">
                         <div class="logo left">
-                            <a href="/" title="Физкультурно-оздоровительный комплекс">
-                                Физкультурно-оздоровительный комплекс
+                            <a href="/" title="<?=$articles[0]['name']?>">
+                                <?=$articles[0]['name']?>
                             </a>
                         </div>
                         <nav class="right">
@@ -84,9 +85,9 @@
             <footer>
                 <div class="center">
                     <div class="first about-bottom left">
-                        <h2>О нас</h2>
+                        <h2><?=$articles[2]['name']?></h2>
                         <p>
-                            Мы видим свою цель работы в возведении зданий и сооружений, отвечающих эстетике ХХI века, в продвижении на отечественный рынок самых передовых технологий и современных строительных материалов.
+                            <?=$articles[2]['description']?>
                         </p>
                     </div>
                     <div class=" second left last-news">
