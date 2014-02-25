@@ -132,3 +132,243 @@
 #6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
 #7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
 #8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:538
+2014-02-24 19:54:35 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 486 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 19:54:35 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(486): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 486, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 19:54:38 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 486 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 19:54:38 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(486): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 486, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 19:54:41 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 486 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 19:54:41 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(486): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 486, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 19:54:41 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 486 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 19:54:41 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(486): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 486, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 19:54:41 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 486 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 19:54:41 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(486): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 486, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 19:54:42 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 486 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 19:54:42 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(486): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 486, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 20:56:14 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 486 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 20:56:14 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(486): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 486, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 20:57:28 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 486 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 20:57:28 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(486): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 486, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 20:57:30 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 486 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 20:57:30 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(486): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 486, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:486
+2014-02-24 22:30:00 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:00 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:05 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:05 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:05 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:05 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:05 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:05 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:06 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:06 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:06 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:06 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:06 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:06 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:06 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:06 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:06 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:06 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:07 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:07 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:07 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:07 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:07 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:07 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:08 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:08 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:08 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:08 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:08 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: HTTP_REFERER ~ APPPATH/classes/Controller/Client.php [ 534 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534
+2014-02-24 22:30:08 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(534): Kohana_Core::error_handler(8, 'Undefined index...', '/home/intellect...', 534, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Controller_Client::gd()
+#2 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#8 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:534

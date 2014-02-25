@@ -18,7 +18,7 @@ class Controller_Client extends Controller_Template {
             if ($_SESSION['poll_id'] == $poll['id'])
                 $_SESSION['y'] = true;
         }
-        $this->gd();
+     //  $this->gd();
 
         $categories = ORM::factory('Products')->get_tree(true);
         $this->template->menu = $categories['main'];
@@ -81,22 +81,60 @@ class Controller_Client extends Controller_Template {
     }
     
     
+
+    
+    
     
     public function action_contact() {
         $view = View::factory('client/contact');
         if (isset($_SESSION['msg'])) {
             $msg = $_SESSION['msg'];
         }
+        $view->contacts = ORM::factory('Contacts')->get_contacts();
         
-        if ($this->request->post()) {
-            $data = Controller_Admin::filter1x($_POST);
-            
-    		$subject = 'Сообщение обратной связи mobileninvest.by';
-    		$from = 'intellectwork@gmail.com';
-    		Email::send($to, $from, $subject, 'aergeargeargeargerg', $html = false);
+        if ($this->request->post())
+	{
+            $data = "\nСообщение: ".$_POST['message']."\n\n\nОт (Имя): ".$_POST['name']."\nemail: ".$_POST['email'];
+		$to  = "fest2010@mail.ru";
+    	        $subject = 'imobileninvest.by >> Сообщение с страницы контактов.';
+		if(mail($to, $subject, $data))
+		{
+		    $message = "Сообщение успешно отправлено!";
+		    $view->message = $message;
+		}
+		else
+		{
+		    $error = "Сообщение не отправлено. Произошла ошибка, обратитесь к администратору сайта.";
+		    $view->error = $error;
+		}
 
-            var_dump($data);die;
+		$to  = "7331603@gmail.com";
+		if(mail($to, $subject, $data))
+		{
+		    $message = "Сообщение успешно отправлено!";
+		    $view->message = $message;
+		}
+		else
+		{
+		    $error = "Сообщение не отправлено. Произошла ошибка, обратитесь к администратору сайта.";
+		    $view->error = $error;
+		}
+
+		$to  = "agintowt1@gmail.com";
+		if(mail($to, $subject, $data))
+		{
+		    $message = "Сообщение успешно отправлено!";
+		    $view->message = $message;
+		}
+		else
+		{
+		    $error = "Сообщение не отправлено. Произошла ошибка, обратитесь к администратору сайта.";
+		    $view->error = $error;
+		}
         }
+        
+        
+
         $this->template->content = $view;
     }
     
@@ -445,6 +483,16 @@ class Controller_Client extends Controller_Template {
         if ($of) {
             $arr = array();
             $arr['result'] = $data;
+     // ---------------email------------------       
+//            if (isset($data['to_email'])) {
+//                if ($data['to_email'] =='minsk') {
+//                    $uri = '/contacts?minsk';
+//                }
+//                else {
+//                    $uri = '/contacts?moscow';
+//                }
+//            }
+     // ---------------email------------------              
             $arr['ip'] = $_SERVER['REMOTE_ADDR'];
             $arr['date'] = date('U');
             if ($_SESSION['fcode'] == $data['txtpic']) {
@@ -482,23 +530,23 @@ class Controller_Client extends Controller_Template {
         return $dop;
     }
 
-    public static function gd() {
-        $ref = urlencode($_SERVER['HTTP_REFERER']);
-        if (empty($ref)) {
-            $ref = "прямая ссылка";
-        }
-        $data['from'] = $ref;
-        $data['ip'] = $_SERVER['REMOTE_ADDR'];
-        $data['to'] = $_SERVER['REQUEST_URI'];
-        if ($data['to'] == '/') {
-            $data['to'] = 'Главная';
-        }
-        $data['date'] = Date('U');
-        $data['browser'] = $_SERVER['HTTP_USER_AGENT'];
-
-        $add = ORM::factory('Stats')->insert_user_info($data);
-        $addu = ORM::factory('Statsu')->insert_user_info($data);
-    }
+//    public static function gd() {
+//        $ref = urlencode($_SERVER['HTTP_REFERER']);
+//        if (empty($ref)) {
+//            $ref = "прямая ссылка";
+//        }
+//        $data['from'] = $ref;
+//        $data['ip'] = $_SERVER['REMOTE_ADDR'];
+//        $data['to'] = $_SERVER['REQUEST_URI'];
+//        if ($data['to'] == '/') {
+//            $data['to'] = 'Главная';
+//        }
+//        $data['date'] = Date('U');
+//        $data['browser'] = $_SERVER['HTTP_USER_AGENT'];
+//
+//        $add = ORM::factory('Stats')->insert_user_info($data);
+//        $addu = ORM::factory('Statsu')->insert_user_info($data);
+//    }
 
     public static function captcha() {
         $letters = 'ABCDEFGKIJKLMNOPQRSTUVWXYZ';

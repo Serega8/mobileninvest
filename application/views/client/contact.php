@@ -2,9 +2,9 @@
     <div class="center">
         <h1>Контакты</h1>
         <ul>
-            <li><a href="/">Главная</a></li>
+            <li><?= HTML::anchor('/', 'Главная'); ?></li>
             <li>/</li>
-            <li><a href="/наши-контакты">Контакты</a></li>
+            <li><?= HTML::anchor('/наши-контакты', 'Контакты'); ?></li>
         </ul>
     </div>
 </div>
@@ -39,17 +39,17 @@
         <h2 style="padding-left: 10px;">Наш адрес:</h2>
         <div class="one-item">
             <span class="left"><i class="fa fa-map-marker"></i></span>
-            <p class="left">г. Минск, ул. Тимирязева, 67</p>
+            <p class="left"><?=$contacts['adr'];?></p>
             <div class="null"></div>
         </div>	
         <div class="one-item">
             <span class="left"><i class="fa fa-phone"></i></span>
-            <p class="left">+375 (17) 396 38 61 (Офис) <br> +375 (29) 612 81 12 (Velcom)</p>
+            <p class="left"><?=$contacts['gorod'];?> (Офис) <br><?=$contacts['vel'];?> (Velcom)</p>
             <div class="null"></div>
         </div>
         <div class="one-item">
             <span class="left"><i class="fa fa-envelope"></i></span>
-            <p class="left"><a href="mailto:info@imobileninvest.by">info@imobileninvest.by</a></p>
+            <p class="left"><a href="mailto:<?=$contacts['other'];?>"><?=$contacts['other'];?></a></p>
             <div class="null"></div>
         </div>
     </div>

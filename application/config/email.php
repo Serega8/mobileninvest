@@ -28,10 +28,12 @@ return array(
 	'options' => array
                 (
                     'hostname'  => 'smtp.gmail.com',
-                    'port'      => '465', 
+                    'port'      => '587', 
+                    //'port'      => '465', 
                     'username'  => 'intellectwork@gmail.com', 
                     'password'  => '58apilob',
-                    'encryption' => 'ssl'
+                    'encryption' => 'tls'
+                    //'encryption' => 'ssl'
                 )
 );
 
