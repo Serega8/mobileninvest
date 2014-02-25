@@ -18,9 +18,10 @@ class Controller_Client extends Controller_Template {
             if ($_SESSION['poll_id'] == $poll['id'])
                 $_SESSION['y'] = true;
         }
-     //  $this->gd();
 
         $categories = ORM::factory('Products')->get_tree(true);
+        $contacts = ORM::factory('Contacts')->get_contacts();
+        $this->template->contacts = $contacts;
         $this->template->menu = $categories['main'];
         $this->template->sub_menu = $categories['sub'];
 
@@ -49,7 +50,7 @@ class Controller_Client extends Controller_Template {
     public function action_index() {
         $view = View::factory('client/index');
         $view->slides = ORM::factory('Slideshow')->all_slides();
-
+        $view->contacts = ORM::factory('Contacts')->get_contacts();
         $poll = ORM::factory('Votes')->get_last_poll();
 
 

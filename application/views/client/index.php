@@ -1,4 +1,4 @@
-                
+             
 <div class="for-photo inform">
     <div class="center">
         <h1>ООО «ИмобиленИнвест»</h1>
@@ -130,15 +130,15 @@
             <div class="cont">
                 <h2>Контактная информация:</h2>
                 <div class="one-item">
-                    <p class="left">г. Минск, ул. Тимирязева, 67, оф. 1626</p>
+                    <p class="left"><?=$contacts['adr'];?>, <?=$contacts['name'];?></p>
                     <div class="null"></div>
                 </div>	
                 <div class="one-item">
-                    <p class="left"> +375 (17) 396 38 61 (Офис) <br> +375 (29) 612 81 12 (Velcom)</p>
+                    <p class="left"> <?=$contacts['gorod'];?> (Офис) <br> <?=$contacts['vel'];?> (Velcom)</p>
                     <div class="null"></div>
                 </div>
                 <div class="one-item">
-                    <p class="left"><a href="mailto:info@imobileninvest.by">info@imobileninvest.by</a></p>
+                    <p class="left"><a href="mailto:<?=$contacts['other'];?>"><?=$contacts['other'];?></a></p>
                     <div class="null"></div>
                 </div>
             </div>

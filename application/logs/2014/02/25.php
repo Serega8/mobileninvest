@@ -16,3 +16,12 @@
 #12 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
 #13 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
 #14 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/views/client/contact.php:2
+2014-02-25 18:22:49 --- EMERGENCY: ErrorException [ 2 ]: Creating default object from empty value ~ APPPATH/classes/Controller/Client.php [ 21 ] in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:21
+2014-02-25 18:22:49 --- DEBUG: #0 /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php(21): Kohana_Core::error_handler(2, 'Creating defaul...', '/home/intellect...', 21, Array)
+#1 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Controller.php(69): Controller_Client->before()
+#2 [internal function]: Kohana_Controller->execute()
+#3 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Client))
+#4 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 /home/intellectit/Документы/проекты/mobileninvest.local/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 /home/intellectit/Документы/проекты/mobileninvest.local/index.php(118): Kohana_Request->execute()
+#7 {main} in /home/intellectit/Документы/проекты/mobileninvest.local/application/classes/Controller/Client.php:21
